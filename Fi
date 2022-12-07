@@ -1,0 +1,7 @@
+echo "# Trusted" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Zubair1263/Trusted.git
+git push -u origin main
